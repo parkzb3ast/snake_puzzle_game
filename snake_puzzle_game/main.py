@@ -120,7 +120,7 @@ def main():
         
         for enemy in enemys_list:
             if enemy.state != 'die':
-                my_draw.rectangle(tuple(enemy.position), fill = (255, 0, 0))\
+                my_draw.rectangle(tuple(enemy.position), fill = (255, 0, 0))
           
         for hit in dots:
             my_draw.ellipse(tuple(hit.position), outline = hit.outline, fill = (0, 0, 0))
